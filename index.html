@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="resources/salt.webp" alt="saltnpeeperlogo" class="logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Publications</a></li>
+        </ul>
+        <div class="buttons">
+            <a href="#" class="franchise-btn">Get a Franchise</a>
+            <a href="#" class="order-btn">Order Online <span>→</span></a>
+        </div>
+    </nav>
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="resources/1.webp" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="resources/2.webp" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="resources/3.webp" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="resources/4.webp" alt="Slide 4">
+            </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <section class="mainsection">
+        <div class="container">
+            <div class="main_custom_heading-second ">
+                <h2>Welcome to <span class="logo-text-hold">Salt'n Pepper</span><br />Restaurants! Our Brands</h2>
+                <p>Please click our brands below for further information, reservations or to order online!</p>
+            </div>
+            <div class="threelogo">
+                <div><a href="#"><img src="resources/slt.webp" alt=""></a>
+                </div>
+                <div><a href="#"><img src="resources/slt1.webp" alt=""></a>
+                </div>
+                <div><a href="#"><img src="resources/slt2.webp" alt=""></a></div>
+
+            </div>
+            <div class="threelogobtn">
+                <div><input type="button" value="order now">
+                </div>
+                <div><input type="button" value="order now">
+                </div>
+                <div><input type="button" value="Reserve a table"></div>
+
+            </div>
+
+            <div class="container">
+                <div class="main_custom_heading-second ">
+                    <h2>Welcome to <span class="logo-text-hold">Salt'n Pepper</span><br />Restaurants Franchises</h2>
+                    <p>Each of our franchises are individually managed. For further details, kindly contact them
+                        directly.
+                    </p>
+                </div>
+                <div class="islcontent">
+                    <div class="left">
+                        <h2 class="isl">Islamabad</h2>
+                        <h3><span class="logotext">Salt'n Pepper</span> Restaurant</h3>
+                        <p><i class="address" aria-hidden="true"></i> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad
+                        </p>
+                        <p><a href="tel:051-2604904-6"><i class="phone" aria-hidden="true"></i> Ph: 051-2604904-6</a>
+                        </p>
+                        <a href="" class="islbtn" target="_blank" rel="noopener"> Get Directions <span
+                                class="arrow-one"><i class="arrowright"></i></span></a>
+                    </div>
+                    <div class="right">
+                        <img src="resources/isl.webp" alt="Restaurant Image">
+                    </div>
+                </div>
+
+
+
+
+
+
+    </section>
+
+    <footer class="defaul-footer w-100" style="margin-bottom: 0;padding: 0 !important">
+        <div class="custom_container">
+            <div class="footer_copyright d-flex align-content-center justify-content-between">
+                <span>© 2024 Snp Main</span>
+                <span>Powered by <a href="https://tossdown.com/" target="_blank">tossdown.com</a></span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
